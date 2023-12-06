@@ -18,7 +18,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot.png)
+![](../screenshot.png)
 ![](./screenshot-2.png)
 
 ### Links
@@ -45,10 +45,10 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Chat GPT](https://chat.openai.com/) - This helped me for understand how to center a div😂 and provide stylings for different screens.
+- [Chat GPT](https://chat.openai.com/) - Helped me understand how to center a div again😂 and media query stylings for different screens.
 
 ## Author
 
-- Website - [Anthony Mwaura](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@Anthony11hub](https://www.twitter.com/yourusername)
+- Website - [Anthony Mwaura](https://github.com/Anthony11-hub)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Anthony11-hub)
+- Twitter - [@Anthony11hub](https://www.twitter.com/Anthony11hub)
