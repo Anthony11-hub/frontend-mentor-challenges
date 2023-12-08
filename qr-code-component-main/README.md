@@ -18,13 +18,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./screenshot.png)
-![](./screenshot-2.png)
+![](Screenshot.png)
+![](screenshot-2.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [frontend-mentor-challenges-two-rho.vercel.app](https://frontend-mentor-challenges-two-rho.vercel.app/)
 
 ## My process
 
@@ -37,18 +36,18 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I have learned a little bit about how Flexbox works and how it differs from CSS Grid.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I will continue practicing by building projects on Frontend Mentor to deepen my understanding of CSS. I'm also looking forward to getting into Tailwind CSS later on, especially when I start relearning React.
 
 ### Useful resources
 
-- [Chat GPT](https://chat.openai.com/) - This helped me for understand how to center a div😂 and provide stylings for different screens.
+- [Chat GPT](https://chat.openai.com/) - Helped me understand how to center a div again😂 and media query stylings for different screens.
 
 ## Author
 
-- Website - [Anthony Mwaura](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@Anthony11hub](https://www.twitter.com/yourusername)
+- Website - [Anthony Mwaura](https://github.com/Anthony11-hub)
+- Frontend Mentor - [@Anthony11-hub](https://www.frontendmentor.io/profile/Anthony11-hub)
+- Twitter - [@Anthony11hub](https://www.twitter.com/Anthony11hub)
