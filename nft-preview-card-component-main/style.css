@@ -201,3 +201,25 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media screen and (max-width: 600px) {
+    .nft-section {
+        margin: 5rem auto;
+        width: 90%;
+    }
+
+    .nft-section .card {
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nft-section {
+        margin: 8rem auto;
+        width: 330px;
+    }
+
+    .nft-section .card {
+        max-width: 100%;
+    }
+}

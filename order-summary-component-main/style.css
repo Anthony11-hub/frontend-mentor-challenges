@@ -111,7 +111,6 @@ body {
 .order-plan {
     display: flex;
     align-items: center;
-    /* gap: 1rem; */
 }
 
 .order-plan-period .header-plan {
@@ -138,7 +137,6 @@ body {
     border-radius: var(--radius-10);
     color: var(--White);
     box-shadow: 0 10px 10px hsl(224, 23%, 55%, 0.5);
-    /* Add a subtle box shadow */
     transition: box-shadow 0.3s ease;
 }
 
@@ -168,7 +166,6 @@ body {
 }
 
 
-/* Add these styles within the appropriate media queries */
 /* Media query for smaller screens */
 @media screen and (max-width: 600px) {
     body {
@@ -176,12 +173,30 @@ body {
         background-color: var(--Pale-blue);
         background-attachment: fixed;
     }
+
+    .order-summary-section {
+        margin: 5rem auto;
+        width: 90%;
+    }
+
+    .order-summary-section .card {
+        max-width: 100%;
+    }
 }
 
 @media screen and (min-width: 768px) {
     body {
         background-size: auto;
         background-attachment: fixed;
+    }
+
+    .order-summary-section {
+        margin: 8rem auto;
+        width: 350px;
+    }
+
+    .order-summary-section .card {
+        max-width: 100%;
     }
 }
 
