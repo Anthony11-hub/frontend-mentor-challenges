@@ -12,7 +12,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -25,11 +24,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](Screenshot-1.jpg)
+![](Screenshot-1.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [frontend-mentor-challenges-jv1c.vercel.app
+  ](https://frontend-mentor-challenges-jv1c.vercel.app/)
 
 ## My process
 
@@ -38,7 +38,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
 
 ### What I learned
 
@@ -47,10 +46,6 @@ I have learned more about how Flexbox works.
 ### Continued development
 
 I will continue practicing by building projects on Frontend Mentor to deepen my understanding of CSS. I'm also looking forward to getting into Tailwind CSS later on, especially when I start relearning React.
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
 ## Author
 
