@@ -36,8 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://657ac26d1a2c1778ee5bae2c--gleaming-kelpie-086aa2.netlify.app/](https://657ac26d1a2c1778ee5bae2c--gleaming-kelpie-086aa2.netlify.app/)
 
 ## My process
 
