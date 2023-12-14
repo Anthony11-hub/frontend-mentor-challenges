@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | REST countires API</title>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <h2>Where in the World?</h2>
+
+          <div class="mode-switch" id="dark-mode-toggle">
+            <ion-icon name="moon-outline"></ion-icon>
+            <p>Dark Mode</p>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="search-filter-section">
+        <div class="container">
+          <div class="search-bar">
+            <div class="ion-container">
+              <ion-icon name="search-outline"></ion-icon>
+            </div>
+            <input
+              type="text"
+              placeholder="Search for a country..."
+              id="search-bar" />
+          </div>
+          <div class="filter-search">
+            <select name="filter" id="filter-search">
+              <option value="" disabled selected style="display: none">
+                Filter by Region
+              </option>
+              <div class="option-value">
+                <option value="Kenya"></option>
+              </div>
+            </select>
+          </div>
+        </div>
+      </section>
+      <section class="country-section">
+        <div class="container">
+          <div class="country-grid js-country-grid">
+            <!-- js adds countries here -->
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js"
+      integrity="sha512-b94Z6431JyXY14iSXwgzeZurHHRNkLt9d6bAHt7BZT38eqV+GyngIi/tVye4jBKPYQ2lBdRs0glww4fmpuLRwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/darkMode.js"></script>
+  </body>
+</html>
