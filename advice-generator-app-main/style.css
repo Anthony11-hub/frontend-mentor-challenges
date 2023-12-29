@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Manrope:wght@800&family=Nunito+Sans:opsz@6..12&family=Outfit&family=Red+Hat+Display&display=swap');
+
+:root {
+    /* primary colors */
+    --neon-green: hsl(150, 100%, 66%);
+    --light-Cyan: hsl(193, 38%, 86%);
+
+    /* Neutral */
+    --dark-graying-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+    --graying-blue: hsl(217, 19%, 38%);
+
+    /*  */
+    --ff-family: 'Manrope', sans-serif;
+
+    --ff-800: 800;
+
+    --ff-quote-px: 2.8rem;
+}
+
+/* reset css */
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+html {
+    font-family: var(--ff-family);
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--dark-blue);
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+
+/* card styles */
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark-graying-blue);
+    border-radius: 15px;
+    padding: 2rem;
+    width: 550px;
+    max-width: 100%;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: var(--ff-800);
+    color: var(--neon-green);
+    padding: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+    letter-spacing: 6px;
+}
+
+.card-text {
+    text-align: center;
+    color: var(--light-Cyan);
+    padding: 2rem;
+    font-size: 2.8rem;
+    line-height: 1.5;
+}
+
+.divider {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.divider .mobile {
+    display: none;
+}
+
+.button {
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: -50px;
+}
+
+button {
+    border: none;
+    padding: 2rem;
+    background-color: var(--neon-green);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+button:hover {
+    box-shadow: 0 0 20px hsl(150, 100%, 66%, .6);
+}
+
+@media screen and (max-width: 576px) {
+    .card {
+        padding: 1.3rem;
+        width: 350px;
+    }
+
+    .divider .mobile {
+        display: block;
+    }
+
+    .divider .desktop {
+        display: none;
+    }
+
+    .card-text {
+        font-size: 2.4rem;
+        line-height: 1.5;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
